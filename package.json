@@ -1,0 +1,27 @@
+{
+    "name": "simple-image-minifier",
+    "version": "1.0.0",
+    "description": "a simple image minifier using npm scripts",
+    "scripts": {
+        "start": "imagemin src/assets/images/* --out-dir=dist/assets/images/ --plugin=mozjpeg --plugin=pngquant --plugin=svgo --plugin=gifsicle"
+    },
+    "author": "George Park",
+    "license": "MIT",
+    "keywords": [
+        "image",
+        "minification",
+        "minifier"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/georgewpark/Simple-Image-Minifier.git"
+    },
+    "devDependencies": {
+        "imagemin-cli": "^4.0.0",
+        "imagemin-gifsicle": "^6.0.1",
+        "imagemin-mozjpeg": "^8.0.0",
+        "imagemin-pngquant": "^7.0.0",
+        "imagemin-svgo": "^7.0.0"
+    },
+    "homepage": "https://github.com/georgewpark/Simple-Image-Minifier"
+}
