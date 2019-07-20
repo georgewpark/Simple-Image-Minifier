@@ -17,7 +17,7 @@
         "url": "https://github.com/georgewpark/Simple-Image-Minifier.git"
     },
     "devDependencies": {
-        "imagemin-cli": "^4.0.0",
+        "imagemin-cli": "^4.0.1",
         "imagemin-gifsicle": "^6.0.1",
         "imagemin-mozjpeg": "^8.0.0",
         "imagemin-pngquant": "^7.0.0",
